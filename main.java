@@ -7,5 +7,6 @@ public class main {
 //        System.out.printf("\n The square of 99 is %d", example.get_square(99));
         System.out.printf("\n The time now is - %s", example.getmytime());
         System.out.printf("\n Permute 9 with 2 gives %d\n\n", example.permute(9, 2));
+
      	}   
 }
