@@ -4,11 +4,11 @@
 #include <time.h>
 #include "example.h"
 
-// double My_variable = 3.0;
+ double My_variable = 3.0;
 
-// int get_square(int n){
-//	return multiply(n, n);
-// }
+ int get_square(int n){
+	return multiply(n, n);
+ }
  
  int permute(int n, int r) {
      int num = fact(n); printf("\n==> %d", num);

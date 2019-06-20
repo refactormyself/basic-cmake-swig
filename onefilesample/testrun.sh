@@ -2,7 +2,7 @@
 
 set -e
 
-rm -r ./build/*
+rm -rf ./build/* ||yes
 cd build
 cmake ..
 cmake --build .

@@ -17,6 +17,6 @@ int my_mod(int x, int y) {
 
 int permute(int,int);
 
-//int get_square(int);
+int get_square(int);
 
 char *getmytime();
