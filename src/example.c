@@ -4,11 +4,11 @@
 #include <time.h>
 #include "example.h"
 
- double My_variable = 3.0;
+// double My_variable = 3.0;
 
- int square(int n){
-	return multiply(n, n);
- }
+// int get_square(int n){
+//	return multiply(n, n);
+// }
  
  int permute(int n, int r) {
      int num = fact(n); printf("\n==> %d", num);
@@ -19,13 +19,14 @@
      return num/denum;
  }
 
-char *get_time()
+char *getmytime()
  {
      time_t ltime;
      time(&ltime);
      return ctime(&ltime);
  }
 
+/*
 int main(){
 	printf("\n The square of 99 is %d", square(99));
 	printf("\n Time now is -  %s", get_time());
@@ -33,3 +34,4 @@ int main(){
 	
 	return 0;
 }
+*/
