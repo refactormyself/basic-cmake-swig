@@ -13,5 +13,10 @@ int fact(int n) {
                                  
 int my_mod(int x, int y) {
      return (x%y);               
- }                               
-                                 
+ }
+
+int permute(int,int);
+
+//int get_square(int);
+
+char *getmytime();
